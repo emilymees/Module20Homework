@@ -3,6 +3,9 @@
 
 ## Analysis Overview
 
+The purpose of this analysis was to analyze lending data and build models to help identify borrowers' creditworthiness. Unfortunately we do see a significant class imbalance between healthy loans (75,036) and high-risk loans (2,500), which could negatively impact our model's performance. 
+
+
 
 ## Results
 
