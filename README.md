@@ -3,9 +3,11 @@
 
 ## Analysis Overview
 
-The purpose of this analysis was to analyze lending data and build models to help identify borrowers' creditworthiness. Unfortunately we do see a significant class imbalance between healthy loans (75,036) and high-risk loans (2,500), which could negatively impact our model's performance. 
+The purpose of this exercise was to analyze lending data and build models that may help predict a borrowers' creditworthiness. Unfortunately, we do see a significant class imbalance between healthy loans (75,036) and high-risk loans (2,500), which could negatively impact our model's performance. 
 
+After splitting our original data into training and testing datasets, the first Logistic Regression Model was created. 
 
+Then after reviewing the results of our first model, we used the resampling method with our dataset before creating the second Logistic Regression Model. Resampling will not only allow us to see how the second model will perform on data it has not been trained on, but will also help even out the class imbalance we saw before running our first model. 
 
 ## Results
 
@@ -23,4 +25,4 @@ The purpose of this analysis was to analyze lending data and build models to hel
 
 ## Summary
 
-
+Overall the second Logistic Regression Model performs the best with balanced oversampled data, we see accuracy increase slightly and the number of false negatives decrease drastically; however, we also see false positives increase. The better place to start could be with a model fitted with balanced data, or balanced oversampled data that originally didn't have such a massive classification imbalance as this dataset. 
